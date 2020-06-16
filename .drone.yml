@@ -19,7 +19,7 @@ steps:
 - name: publish
   image: plugins/docker
   settings:
-    repo: doomseday/cc-uebung-12
+    repo: chschuele/cc-uebung-12
     username:
       from_secret: dockerhub_user
     password:
